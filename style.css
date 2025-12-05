@@ -316,6 +316,26 @@ font-size: 20px;
 .contacts .button button{
     width: 100px;
 }
+.ceoMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+    margin: 10px;
+    background: white;
+    padding: 30px;
+    color: green;
+    font-size: 20px;
+}
+.ceoMessage img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+        box-shadow: -2px -2px 5px black, 2px 5px 5px black;
+
+    
+}
+
 @media (max-width: 768px) {
     header{
      height: auto;
@@ -429,6 +449,18 @@ height: auto;
 }
 .about-us{
     height: auto;
+}
+
+.ceoMessage{
+    font-size: 18px;
+}
+.ceoMessage img{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+        box-shadow: -2px -2px 5px black, 2px 5px 5px black;
+
+    
 }
 }
 @keyframes navbar {
