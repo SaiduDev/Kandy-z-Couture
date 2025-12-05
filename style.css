@@ -277,6 +277,45 @@ footer .contact a{
     box-shadow: -2px -2px 5px green, 2px 5px 5px yellow;
     border: 2px solid green;
 }
+.about-us{
+   padding: 20px;
+   font-size: 21px;
+   text-spacing-trim: 10px;
+   background: green;
+   color: gold;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 250px;
+    margin: 0px;
+
+}
+.contacts .button-sec{
+flex: 1;
+background-color: green;
+    padding: 20px;
+     height: 200px;
+border: 2px solid gold;
+border-radius: 20px;
+margin: 10px;
+
+}
+.contacts .con-details{
+    text-align: center;
+    flex: 1;
+    background: gold;
+    padding: 20px;
+    height: 200px;
+border-radius: 20px;
+
+font-size: 20px;
+}
+.contacts .button button{
+    width: 100px;
+}
 @media (max-width: 768px) {
     header{
      height: auto;
@@ -367,6 +406,29 @@ margin: 30px;
         }
 .productHeader button{
     width: 100px;
+}
+.contacts{
+    flex-direction: column;
+    height: auto;
+    padding-inline-start: 12px;
+}
+.about-us{
+    font-size: 18px;
+    padding: 20px;
+}
+.contact .con-details{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.contacts .button{
+height: auto;
+    padding: 10px;
+    width: auto;
+}
+.about-us{
+    height: auto;
 }
 }
 @keyframes navbar {
